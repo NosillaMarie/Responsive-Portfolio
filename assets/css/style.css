@@ -1,0 +1,565 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    font-size: 18px;
+    line-height: 150%;
+    background-image: url("../../assets/images/light_grey_@2X.jpg");
+    color: #777777;
+}
+
+h1 {
+    float: left;
+    padding: 2rem;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#top-bar {
+    clear: both;
+    background-color: #ffffff;
+    height: 6rem;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 4px;
+    justify-content: center;
+}
+
+ul.nav {
+    float: right;
+    padding: 50px;
+    margin-right: 5px;
+    color: #dddddd;
+    font-size: 20px;
+    display: inline;
+}
+
+.nav li {
+    display: inline;
+}
+
+
+/*unvisited link*/
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.wrapper {
+    clear: both;
+    width: 960px;
+    margin-bottom: -25%;
+    min-height: 100%;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px
+}
+
+hr {
+    background-color: #dddddd;
+    display: block;
+    height: 3px;
+    border: 0;
+}
+
+#bio-image {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 15px;
+    float: left;
+}
+
+#about {
+    margin-left: 10%;
+    margin-right: 40px;
+    width: 60%;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    padding: 35px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    float: left;
+}
+
+
+/*contact page*/
+
+form {
+    width: 650px;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 10px 10px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    color: #777777;
+    font-size: 18px;
+}
+
+textarea {
+    width: 75%;
+    color: #777777;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+
+input[type=submit]#submit {
+    padding: 12px 30px 12px 30px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+}
+
+
+/*End of Contact Page*/
+
+
+/*Start of Portfolio Page*/
+
+#portfolio {
+    position: relative;
+    width: 650px;
+    margin-right: 30px;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    float: left;
+}
+
+#portfolioImages {}
+
+.img {
+    height: 145px;
+    width: 260px;
+    margin: 20px 20px 10px 20px;
+}
+
+h3-1 {
+    position: absolute;
+    top: 185px;
+    left: 35px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "'Georgia', Times, Times New Roman, serif;
+
+}
+
+h3-2 {
+    position: absolute;
+    top: 185px;
+    left: 340px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "'Georgia', Times, Times New Roman, serif;
+
+}
+
+h3-3 {
+    position: absolute;
+    top: 365px;
+    left: 35px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3-4 {
+    position: absolute;
+    top: 365px;
+    left: 340px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3-5 {
+    position: absolute;
+    top: 555px;
+    left: 35px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+    text-align: center;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/*End Portfolio Page*/
+
+
+/*Start Connect Section*/
+
+#contact-info {
+    border: solid;
+    float: left;
+    padding: 20px;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: white;
+}
+
+#github {
+    clear: both;
+    width: 3em;
+    height: 3em;
+}
+
+#linkedin {
+    width: 3em;
+    height: 3em;
+}
+
+#stackoverflow {
+    width: 3em;
+    height: 3em;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    #wrapper {
+        width: 900px;
+    }
+    #about {
+        width: 50%;
+        margin-left: 10%;
+    }
+    #top-bar {
+        width: 100%;
+    }
+    h1 {
+        width: auto;
+        margin-left: 10%;
+        margin-top 10px;
+        padding: 30px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #bio-image {
+        width: 80%;
+        height: 270px;
+        margin: 5% 10% 5% 10%;
+    }
+    #contact-info {
+        width: 28%;
+    }
+    #github {
+    clear: both;
+    width: 5em;
+    height: 5em;
+}
+
+#linkedin {
+    width: 5em;
+    height: 5em;
+}
+
+#stackoverflow {
+    width: 5em;
+    height: 5em;
+}
+    
+    #name,
+    #email,
+    textarea {
+        width: 65%;
+    }
+    #portfolio {
+        width: 40%;
+    }
+    #portfolioImages {
+        width: 100%;
+        margin: auto;
+    }
+    h3-2 {
+        position: absolute;
+        top: 365px;
+        left: 35px;
+    }
+    h3-3 {
+        position: absolute;
+        top: 555px;
+        left: 35px;
+    }
+    h3-4 {
+        position: absolute;
+        top: 740px;
+        left: 35px;
+    }
+    h3-5 {
+        position: absolute;
+        top: 925px;
+        left: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 700px;
+    }
+    #top-bar {
+        width: 100%;
+    }
+    h1 {
+        width: auto;
+        margin-left: 3%;
+        margin-top 10px;
+        padding: 30px;
+        font-size: 25px;
+        text-align: center;
+    }
+    ul.nav {
+        margin-right: auto;
+        padding: 50px 50px 50px 0;
+    }
+    #bio-image {
+        width: 40%;
+        height: auto;
+        margin: 2%;
+    }
+    #about {
+        width: 70%;
+        text-align: left;
+        margin: 0 3% 3% 5%;
+    }
+    #contact-info {
+        width: 70%;
+        margin-left: 5%;
+        margin-right: 3%;
+        padding: 20px 18px 20px 20px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    h4 {
+        text-align: left;
+        color: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    #name,
+    #email,
+    textarea {
+        width: 90%;
+    }
+    input {
+        margin-left: 5px;
+    }
+    h2 {
+        text-align: left;
+    }
+    form {
+        text-align: left;
+    }
+    #portfoloioImages {
+        width: 100%;
+    }
+    #portfolio {
+        width: 70%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+        h3-2 {
+        position: absolute;
+        top: 185px;
+        left: 340px;
+    }
+    h3-3 {
+        position: absolute;
+        top: 375px;
+        left: 35px;
+    }
+    h3-4 {
+        position: absolute;
+        top: 375px;
+        left: 340px;
+    }
+    h3-5 {
+        position: absolute;
+        top: 560px;
+        left: 35px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    #wrapper {
+        width: 600px;
+    }
+    #bio-image {
+        width: 100%;
+        height: auto;
+        margin: 2%;
+    }
+    #about {
+        width: 50%;
+        text-align: center;
+        margin: 20px 20px 20px 85px;
+    }
+    h1 {
+        width: 640px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    ul.nav {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background: white;
+        padding: 0;
+    }
+    .nav li {
+        display: inline-block;
+        width: 30%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav a {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 0 auto;
+        display: block;
+    }
+    h2 {
+        text-align: left;
+    }
+    #contact-info {
+        width: 50%;
+        padding: 20px;
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-left: 85px;
+    }
+    #name,
+    #email,
+    textarea {
+        width: 63%;
+    }
+    
+    #portfolio{
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 9%
+
+    }
+    
+    .img {
+        width: 90%;
+        height: auto;
+    }
+    h3-1 {
+        position: absolute;
+        width: 403px;
+        height: 55px;
+        top: 300px;
+        left: 35px;
+        padding: 10px;
+        font-size: 28px;
+    }
+                
+    h3-2 {
+        position: absolute;
+        width: 403px;
+        height: 55px;
+        top: 640px;
+        left: 35px;
+        padding: 10px;
+        font-size: 28px;
+    }
+    h3-3 {
+        position: absolute;
+        width: 403px;
+        height: 55px;
+        top: 980px;
+        left: 35px;
+        padding: 10px;
+        font-size: 28px;
+    }
+    h3-4 {
+        position: absolute;
+        width: 403px;
+        height: 55px;
+        top: 1320px;
+        left: 35px;
+        padding: 10px;
+        font-size: 28px;
+    }
+    h3-5 {
+        position: absolute;
+        width: 403px;
+        height: 55px;
+        top: 1660px;
+        left: 35px;
+        padding: 10px;
+        font-size: 28px;
+    }
+}
